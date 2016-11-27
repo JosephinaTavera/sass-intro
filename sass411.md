@@ -146,26 +146,6 @@ Some things to consider...
 
 
 
-# Exercise: Flash (15 minutes)
-
-> If there's time left, give this exercise a shot.
-
-[Flash Exercise](http://codepen.io/adambray/pen/bEgMXr)
-
-Use Sass to style the provided elements to recreate the image at bottom of the Codepen. You shouldn't need to modify the HTML at all.
-
-Don't try to implement all the above Sass features at once. Instead, take the following steps...
-* Complete the exercise, making sure to use variables for repeated values and nesting selectors where applicable.
-* Once you're done, identify repeated chunks of code and define them in single selectors. Then apply them throughout your code using `@extend` statements.
-* **BONUS:** Use mixins and/or functions to to generate the font and background colors for each button.
-
-<details>
-  <summary>
-	 **SOLUTION:**
-  </summary>
-  [Only take a peek. No copy-and-pasting.](http://codepen.io/adambray/pen/yegjdj)
-</details>
-
 ## Compiling to CSS
 
 Webpages don't know what to do with raw Sass/SCSS, these files need to be compiled to regular CSS to be used.
@@ -193,6 +173,27 @@ used it but it's out there and pretty popular.
 - [Compass](http://compass-style.org/examples/compass/tables/all/)
 
 If you're worried about vendor prefixes there is also [autoprefixer](https://github.com/postcss/autoprefixer). It's not a sass thing but cool regardless and potentially a good alternative to compass if you're only concerned with prefixes.
+
+# Exercise: Flash (15 minutes)
+
+> If there's time left, give this exercise a shot.
+
+[Flash Exercise](http://codepen.io/adambray/pen/bEgMXr)
+
+Use Sass to style the provided elements to recreate the image at bottom of the Codepen. You shouldn't need to modify the HTML at all.
+
+Don't try to implement all the above Sass features at once. Instead, take the following steps...
+* Complete the exercise, making sure to use variables for repeated values and nesting selectors where applicable.
+* Once you're done, identify repeated chunks of code and define them in single selectors. Then apply them throughout your code using `@extend` statements.
+* **BONUS:** Use mixins and/or functions to to generate the font and background colors for each button.
+
+<details>
+  <summary>
+	 **SOLUTION:**
+  </summary>
+  [Only take a peek. No copy-and-pasting.](http://codepen.io/adambray/pen/yegjdj)
+</details>
+
 
 # Conclusion
 
