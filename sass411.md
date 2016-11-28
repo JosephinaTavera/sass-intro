@@ -62,6 +62,9 @@ Group 1
 * [Sass Variables](https://robots.thoughtbot.com/sass-variables)
 * [Getting Started with Sass](http://alistapart.com/article/getting-started-with-sass)
 
+#### Presentation
+- [Group 1](https://github.com/mconnors333/Sass/blob/master/readme.md)
+
 Group 2 
 
 ### II. Nesting
@@ -78,6 +81,8 @@ Group 2
 * [Sass Documentation](http://sass-lang.com/guide)
 * [The Inception Rule](http://thesassway.com/beginner/the-inception-rule)
 
+#### Presentation
+- [Group 2](https://github.com/ahnuce/readmeexample/blob/master/sassreadme.md)
 
 Group 3
 ### III. Extends & Inheritance
@@ -95,6 +100,10 @@ Group 3
 * [Extending In Sass Without A Mess](https://www.smashingmagazine.com/2015/05/extending-in-sass-without-mess/)
 * [The Extend Concept](https://css-tricks.com/the-extend-concept/)
 
+#### Presentation
+- [Group 3](https://github.com/awanderlyss/GROUP3SASS)
+
+
 Group 4
 ### IV: Mixins
 
@@ -111,6 +120,10 @@ Group 4
 * [The Mixin Directive](https://www.sitepoint.com/sass-basics-the-mixin-directive/)
 * [Handy Sass Mixins](https://web-design-weekly.com/2013/05/12/handy-sass-mixins/)
 * [The Extend Concept](https://css-tricks.com/the-extend-concept/)
+
+#### Presentation
+- [Group 4](https://github.com/jtellis/wdi-pvd-sass-features)
+
 
 ### BONUS  V: Functions
 
