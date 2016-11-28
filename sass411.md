@@ -14,11 +14,9 @@
 
 ### CSS 
 
-Our stylesheets are also immensely repetitive. Colors, fonts, oft-used groupings of properties, etc. 
+Stylesheets can be repetitive. Colors, properties, etc. 
 
-Ever needed to change, say, a color in your stylesheet, and found that you had to find and replace the value multiple times? 
-
-Or how about repeated blocks of styles that are used in various locations throughout the stylesheet?
+Imagine having to change a color, and it needs to be done in several locations of a large CSS file.  
 
 CSS is anything but DRY. 
 
@@ -195,7 +193,6 @@ Don't try to implement all the above Sass features at once. Instead, take the fo
   [Only take a peek. No copy-and-pasting.](http://codepen.io/adambray/pen/yegjdj)
 </details>
 
-s
 # Conclusion
 
 - Name 3 benefits of Sass.
