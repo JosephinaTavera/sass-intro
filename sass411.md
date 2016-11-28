@@ -11,12 +11,8 @@
 
 ![Sass Icon](http://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg)
 
-(excerpt from Sass For Web Designers by Dan Cederholm, available now from A Book Apart.)
 
-### CSS is hard
-Let’s face it: learning CSS isn’t easy. Understanding what each property does, how the cascade works, which browser supports what, the selectors, the quirks, and so forth. It’s not easy. Add on top of that the complexity of the interfaces we’re building these days, and the maintenance that goes along with that.
-
-Part of the problem is that CSS wasn’t originally designed to do the things we do with it today. Sure, progress is moving along at a nice clip thanks to rapid browser innovation and implementation of CSS3 and beyond. But we still need to rely on techniques that are, for all intents and purposes, hacks. The float property, for example, was designed to simply align an image within a block of text. That’s it. Yet we’ve had to bend that property to lay out entire interfaces.
+### CSS 
 
 Our stylesheets are also immensely repetitive. Colors, fonts, oft-used groupings of properties, etc. 
 
@@ -24,9 +20,7 @@ Ever needed to change, say, a color in your stylesheet, and found that you had t
 
 Or how about repeated blocks of styles that are used in various locations throughout the stylesheet?
 
-CSS is anything but DRY. At times, it drips with repeated rules, declarations, and values. We’re constantly writing the same snippets of code for colors, fonts, and frequently-used patterns of style throughout our stylesheets. One look through a decent-sized CSS file, and a DRY software developer will weep, first with bewilderment, then frustration.
-
-“How the !@#$ do you maintain this?!” they’ll ask.
+CSS is anything but DRY. 
 
 Fortunately, there are options to help us out here, and one of them is Sass.
 
@@ -43,7 +37,16 @@ Sass is a superset of CSS that adds power and elegance to the basic language. Yo
 ## You Do: Teachbacks (35 minutes / 2:20)
 > 20 minutes exercise. 15 minutes presentations.
 
-You will be divided into group that will researching certain aspects of Sass and teach them back to the class. 
+Now that we have a case for using SASS, let's get into groups and learn more about it. 
+
+Deliverables
+* Create one lesson plan repo for all the concepts your group has been assigned. Use this markdown cheatsheet to help format your readme.md files: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+* Answer questions provided to each group 
+* For each concept, provide two demos showcasing the SASS.
+* Create one example of how the feature would have been implemented in Vanilla CSS.
+* Present your group's findings to the class. Be prepared to talk about the concepts and demonstrate your implementations. Each group will have 10 minutes to present. Plan to have three minutes at the end for questions. All group members must speak.
+
+Group 1
 
 ### I. Variables
 
@@ -61,6 +64,8 @@ You will be divided into group that will researching certain aspects of Sass and
 * [Sass Variables](https://robots.thoughtbot.com/sass-variables)
 * [Getting Started with Sass](http://alistapart.com/article/getting-started-with-sass)
 
+Group 2 
+
 ### II. Nesting
 
 #### Questions
@@ -75,6 +80,8 @@ You will be divided into group that will researching certain aspects of Sass and
 * [Sass Documentation](http://sass-lang.com/guide)
 * [The Inception Rule](http://thesassway.com/beginner/the-inception-rule)
 
+
+Group 3
 ### III. Extends & Inheritance
 
 #### Questions
@@ -90,6 +97,7 @@ You will be divided into group that will researching certain aspects of Sass and
 * [Extending In Sass Without A Mess](https://www.smashingmagazine.com/2015/05/extending-in-sass-without-mess/)
 * [The Extend Concept](https://css-tricks.com/the-extend-concept/)
 
+Group 4
 ### IV: Mixins
 
 #### Questions
@@ -106,7 +114,7 @@ You will be divided into group that will researching certain aspects of Sass and
 * [Handy Sass Mixins](https://web-design-weekly.com/2013/05/12/handy-sass-mixins/)
 * [The Extend Concept](https://css-tricks.com/the-extend-concept/)
 
-### V: Functions
+### BONUS  V: Functions
 
 If you're group finishes early, look into Sass functions!
 
@@ -115,7 +123,7 @@ If you're group finishes early, look into Sass functions!
 * [Sass Documentation](http://sass-lang.com/documentation/Sass/Script/Functions.html)
 * [Pure Sass Functions](http://thesassway.com/advanced/pure-sass-functions)
 
-## Break (5 minutes / 1:45)
+## Break (10 minutes / 1:45)
 
 
 ### 
@@ -163,16 +171,9 @@ This can be done a number of different ways...
 
 There a good number of [libraries](http://www.hongkiat.com/blog/mixin-library-for-sass/) of mixins and functions that can extend the functionality of Sass. Most are used by `@import`ing the library `@include`ing the mixins where desired.
 
-Bourbon + Neat are similar to bootstrap but are a lot more flexible and don't
-require a bunch of classes everywhere. Super cool!
 - [Bourbon](http://bourbon.io/) is "a simple and lightweight mixin library."
   - [Neat](http://neat.bourbon.io/) is "a lightweight semantic grid framework for Sass and Bourbon."
 
-Compass is another framework that adds a bunch of extra features, a lot of the most useful ones are mixins that add vendor prefixes to styles. I've never
-used it but it's out there and pretty popular.
-- [Compass](http://compass-style.org/examples/compass/tables/all/)
-
-If you're worried about vendor prefixes there is also [autoprefixer](https://github.com/postcss/autoprefixer). It's not a sass thing but cool regardless and potentially a good alternative to compass if you're only concerned with prefixes.
 
 # Exercise: Flash (15 minutes)
 
@@ -194,7 +195,7 @@ Don't try to implement all the above Sass features at once. Instead, take the fo
   [Only take a peek. No copy-and-pasting.](http://codepen.io/adambray/pen/yegjdj)
 </details>
 
-
+s
 # Conclusion
 
 - Name 3 benefits of Sass.
